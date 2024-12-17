@@ -39,6 +39,7 @@ Remove-Item -Path .\scoop-games        -Recurse -Force
 Remove-Item -Path .\scoop-sysinternals -Recurse -Force
 
 Get-ChildItem -Recurse -Path .\bucket | ForEach-Object -Process {
+    Write-Host $_.FullName
     # GitHub Releases
     (Get-Content $_.FullName) -replace '(github\.com/.+/releases/.*download)', 'ghp.ci/https://$1' | Set-Content -Path $_.FullName
 
