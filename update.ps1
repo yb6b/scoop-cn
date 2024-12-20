@@ -44,14 +44,14 @@ Get-ChildItem -Recurse -Path .\bucket | ForEach-Object -Process {
         $content = Get-Content $_.FullName
 
         # GitHub Releases
-        $content = $content -replace '(github\.com/.+/releases/.*download)', 'ghp.ci/https://$1' 
+        $content = $content -replace '(github\.com/.+/releases/.*download)', 'mirror.ghproxy.com/https://$1' 
 
         # GitHub Archive
-        $content = $content -replace '(github\.com/.+/archive/)', 'ghp.ci/https://$1' 
+        $content = $content -replace '(github\.com/.+/archive/)', 'mirror.ghproxy.com/https://$1' 
 
         # GitHub Raw
-        $content = $content -replace '(raw\.githubusercontent\.com)', 'ghp.ci/https://$1' 
-        $content = $content -replace '(github\.com/.+/raw/)', 'ghp.ci/https://$1'          
+        $content = $content -replace '(raw\.githubusercontent\.com)', 'mirror.ghproxy.com/https://$1' 
+        $content = $content -replace '(github\.com/.+/raw/)', 'mirror.ghproxy.com/https://$1'          
 
         # SourceForge
         # Use jaist
@@ -88,18 +88,18 @@ Get-ChildItem -Recurse -Path .\bucket | ForEach-Object -Process {
         $content = $content -replace 'media\.inkscape\.org/dl/resources/file', 'mirrors.nju.edu.cn/inkscape' 
 
         # DBeaver
-        $content = $content -replace 'dbeaver\.io/files', 'ghp.ci/https://github.com/dbeaver/dbeaver/releases/download' 
+        $content = $content -replace 'dbeaver\.io/files', 'mirror.ghproxy.com/https://github.com/dbeaver/dbeaver/releases/download' 
         # Or
         # $content = $content -replace 'dbeaver\.io/files', 'mirrors.nju.edu.cn/github-release/dbeaver/dbeaver' 
 
         # OBS Studio
-        $content = $content -replace 'cdn-fastly\.obsproject\.com/downloads/OBS-Studio-(.+)-Windows\.zip', 'ghp.ci/https://github.com/obsproject/obs-studio/releases/download/$1/OBS-Studio-$1-Windows.zip' 
+        $content = $content -replace 'cdn-fastly\.obsproject\.com/downloads/OBS-Studio-(.+)-Windows\.zip', 'mirror.ghproxy.com/https://github.com/obsproject/obs-studio/releases/download/$1/OBS-Studio-$1-Windows.zip' 
         # Or
         # $content = $content -replace 'cdn-fastly\.obsproject\.com/downloads/OBS-Studio-(.+)-Windows\.zip', 'mirrors.nju.edu.cn/github-release/obsproject/obs-studio/OBS%20Studio%20$1/OBS-Studio-$1-Windows.zip' 
         # $content = $content -replace 'cdn-fastly\.obsproject\.com/downloads/OBS-Studio-(.+)-Windows\.zip', 'mirrors.tuna.tsinghua.edu.cn/github-release/obsproject/obs-studio/OBS%20Studio%20$1/OBS-Studio-$1-Windows.zip' 
 
         # OBS Studio 2.7
-        $content = $content -replace 'cdn-fastly\.obsproject\.com/downloads/OBS-Studio-(.+)-Full', 'ghp.ci/https://github.com/obsproject/obs-studio/releases/download/$1/OBS-Studio-$1-Full' 
+        $content = $content -replace 'cdn-fastly\.obsproject\.com/downloads/OBS-Studio-(.+)-Full', 'mirror.ghproxy.com/https://github.com/obsproject/obs-studio/releases/download/$1/OBS-Studio-$1-Full' 
 
         # GIMP
         $content = $content -replace 'download\.gimp\.org/mirror/pub', 'mirrors.aliyun.com/gimp' 
@@ -117,7 +117,7 @@ Get-ChildItem -Recurse -Path .\bucket | ForEach-Object -Process {
         $content = $content -replace 'lun-eu\.icons8\.com/s/', 'lcdn.icons8.com/' 
 
         # Strawberry
-        $content = $content -replace 'files\.jkvinge\.net/packages/strawberry/StrawberrySetup-(.+)-mingw-x', 'ghp.ci/https://github.com/strawberrymusicplayer/strawberry/releases/download/$1/StrawberrySetup-$1-mingw-x' 
+        $content = $content -replace 'files\.jkvinge\.net/packages/strawberry/StrawberrySetup-(.+)-mingw-x', 'mirror.ghproxy.com/https://github.com/strawberrymusicplayer/strawberry/releases/download/$1/StrawberrySetup-$1-mingw-x' 
 
         # SumatraPDF
         # $content = $content -replace 'files\.sumatrapdfreader\.org/file/kjk-files/software/sumatrapdf/rel', 'www.sumatrapdfreader.org/dl/rel' 
@@ -142,7 +142,7 @@ Get-ChildItem -Recurse -Path .\bucket | ForEach-Object -Process {
         $content = $content -replace 'archive\.torproject\.org/tor-package-archive', 'tor.calyxinstitute.org/dist/' 
 
         # FastCopy
-        $content = $content -replace 'fastcopy\.jp/archive', 'ghp.ci/https://raw.githubusercontent.com/FastCopyLab/FastCopyDist2/main' 
+        $content = $content -replace 'fastcopy\.jp/archive', 'mirror.ghproxy.com/https://raw.githubusercontent.com/FastCopyLab/FastCopyDist2/main' 
 
         # Kodi
         $content = $content -replace 'mirrors\.kodi\.tv', 'mirrors.tuna.tsinghua.edu.cn/kodi' 
