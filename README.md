@@ -1,7 +1,11 @@
+> [!NOTE]
+> 本仓库把[原仓库](https://github.com/duzyn/scoop-cn)的github镜像换成了 https://mirror.ghproxy.com
+
+
 <!-- omit in toc -->
 # Scoop 应用库中国加速
 
-![GitHub Actions Workflow Status](https://github.com/duzyn/scoop-cn/actions/workflows/schedule.yml/badge.svg)
+![GitHub Actions Workflow Status](https://github.com/yb6b/scoop-cn/actions/workflows/schedule.yml/badge.svg)
 
 - [Scoop 在中国使用的问题](#scoop-在中国使用的问题)
 - [本应用库介绍](#本应用库介绍)
@@ -54,13 +58,13 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 此方法会把安装 Scoop 过程中的地址都换成中国可快速访问的地址，并设置好 Scoop，添加本仓库。打开 PowerShell，输入以下命令下载安装 Scoop：
 
 ```powershell
-irm https://mirror.ghproxy.com/https://raw.githubusercontent.com/duzyn/scoop-cn/master/install.ps1 | iex
+irm https://mirror.ghproxy.com/https://raw.githubusercontent.com/yb6b/scoop-cn/master/install.ps1 | iex
 ```
 
 或使用 jsDelivr 的地址：
 
 ```powershell
-irm https://cdn.jsdelivr.net/gh/duzyn/scoop-cn/install.ps1 | iex
+irm https://cdn.jsdelivr.net/gh/yb6b/scoop-cn/install.ps1 | iex
 ```
 
 安装成功后，会提示“Scoop and scoop-cn was installed successfully!”
@@ -72,7 +76,7 @@ irm https://cdn.jsdelivr.net/gh/duzyn/scoop-cn/install.ps1 | iex
 1. 运行以下命令添加本仓库
 
     ```powershell
-    scoop bucket add scoop-cn https://mirror.ghproxy.com/https://github.com/duzyn/scoop-cn
+    scoop bucket add scoop-cn https://mirror.ghproxy.com/https://github.com/yb6b/scoop-cn
     ```
 
 2. 把已经安装的 app 改为使用 scoop-cn 来更新。每个 app 安装后在 app 的 current 路径下有个 install.json，里面的 bucket 项的值改为 scoop-cn，这样就把已安装的 app 换到 scoop-cn 了。可以运行以下命令来批量替换：
@@ -127,4 +131,4 @@ scoop install scoop-cn/APPNAME
 scoop help
 ```
 
-![Star History Chart](https://api.star-history.com/svg?repos=duzyn/scoop-cn&type=Date)
+![Star History Chart](https://api.star-history.com/svg?repos=yb6b/scoop-cn&type=Date)
