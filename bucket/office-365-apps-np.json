@@ -1,5 +1,5 @@
 {
-    "version": "23.5.0",
+    "version": "1.5.5.0",
     "description": "Family of client software, server software and services developed by Microsoft.",
     "homepage": "https://www.office.com/",
     "license": {
@@ -8,7 +8,7 @@
     },
     "depends": "scoop-cn/7zip19.00-helper",
     "url": "https://download.microsoft.com/download/#/dl.7z_",
-    "hash": "0a9f839c75fea940eaae5fa5fb9a9bbb4316183f8016a11c076a359f4dd50935",
+    "hash": "b78d61b906939a95099e9decb0f887f66093ff7a2d19a266dd4c136679e53320",
     "pre_install": [
         "$scriptdir = \"$bucketsdir\\scoop-cn\\scripts\"",
         "if ($architecture -eq '64bit') {",
