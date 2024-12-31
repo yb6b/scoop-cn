@@ -1,10 +1,10 @@
 {
-    "version": "0.22.1136",
+    "version": "0.22.1162",
     "description": "API Support for your favorite torrent trackers",
     "homepage": "https://github.com/Jackett/Jackett",
     "license": "GPL-2.0-or-later",
-    "url": "https://mirror.ghproxy.com/https://github.com/Jackett/Jackett/releases/download/v0.22.1136/Jackett.Binaries.Windows.zip",
-    "hash": "b80f4c1dd25881d05a462ecb798aa0f8a8a417bd8c0d9345a865f53d9b660f8a",
+    "url": "https://mirror.ghproxy.com/https://github.com/Jackett/Jackett/releases/download/v0.22.1162/Jackett.Binaries.Windows.zip",
+    "hash": "6427340a29d65f8c8026797e77ae228804b8c28671a2effe4ffb3ba9ee956d02",
     "extract_dir": "Jackett",
     "pre_uninstall": [
         "'JacketTray', 'JacketConsole', 'JacketService' | ForEach-Object {",
