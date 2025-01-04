@@ -1,12 +1,12 @@
 {
-    "version": "2.22.26",
+    "version": "2.22.28",
     "description": "Unified tool to manage AWS services",
     "homepage": "https://aws.amazon.com/cli/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://awscli.amazonaws.com/AWSCLIV2-2.22.26.msi",
-            "hash": "23163aa1b04194915970c3e7c1957f679073b170c28897ede00dc69b6ec85e57"
+            "url": "https://awscli.amazonaws.com/AWSCLIV2-2.22.28.msi",
+            "hash": "40efdb8ff042153e3ba9503645b29594501cd905cfac4e9a669a6b0f3d807bd7"
         }
     },
     "extract_dir": "Amazon\\AWSCLIV2",

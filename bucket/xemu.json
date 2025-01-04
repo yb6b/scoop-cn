@@ -1,5 +1,5 @@
 {
-    "version": "0.8.1",
+    "version": "0.8.5",
     "description": "Original Xbox Emulator",
     "homepage": "https://xemu.app",
     "license": {
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://mirror.ghproxy.com/https://github.com/mborgerson/xemu/releases/download/v0.8.1/xemu-win-release.zip",
-            "hash": "7a8f78bf72e29cfb3f48f8c36bd478cb58070eeca1ff2597d18005086d08091e"
+            "url": "https://mirror.ghproxy.com/https://github.com/mborgerson/xemu/releases/download/v0.8.5/xemu-win-release.zip",
+            "hash": "05651c618cd8a01da03540f8e5023fb8620ccfef3c8d16d2dd56b55fe9c34209"
         }
     },
     "pre_install": [
