@@ -1,20 +1,20 @@
 {
-    "version": "1.10.8",
+    "version": "1.10.10",
     "description": "Fast and powerful Git hooks manager for any type of projects",
     "homepage": "https://github.com/evilmartians/lefthook",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://mirror.ghproxy.com/https://github.com/evilmartians/lefthook/releases/download/v1.10.8/lefthook_1.10.8_Windows_x86_64.gz",
-            "hash": "7079149e03f064be78353cfbc52ee0b03fcdd1b761fa8c99089f395dcf237f25"
+            "url": "https://mirror.ghproxy.com/https://github.com/evilmartians/lefthook/releases/download/v1.10.10/lefthook_1.10.10_Windows_x86_64.gz",
+            "hash": "ed4d4188d9cda799a9764da02100d8ee8f39e2313e2c3003d8d5d6c8babc31ff"
         },
         "32bit": {
-            "url": "https://mirror.ghproxy.com/https://github.com/evilmartians/lefthook/releases/download/v1.10.8/lefthook_1.10.8_Windows_i386.gz",
-            "hash": "dce0e4e03d96310efa1e49d87f68a31d83700c409657057a447b1248d806da4b"
+            "url": "https://mirror.ghproxy.com/https://github.com/evilmartians/lefthook/releases/download/v1.10.10/lefthook_1.10.10_Windows_i386.gz",
+            "hash": "209492560f17182f89743e2093e748ee8f33ccb497f32a6dc7c80974222c5a86"
         },
         "arm64": {
-            "url": "https://mirror.ghproxy.com/https://github.com/evilmartians/lefthook/releases/download/v1.10.8/lefthook_1.10.8_Windows_arm64.gz",
-            "hash": "886955f9814da99f90f1fd8a752b016dccf4d9e71d7ed8ef09932963fd77c6b5"
+            "url": "https://mirror.ghproxy.com/https://github.com/evilmartians/lefthook/releases/download/v1.10.10/lefthook_1.10.10_Windows_arm64.gz",
+            "hash": "2e7cebbf5d04c07f0381018f998e557195f9391857878ee0893dde3665a11e2f"
         }
     },
     "bin": "lefthook.exe",
