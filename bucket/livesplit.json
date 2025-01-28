@@ -1,10 +1,10 @@
 {
-    "version": "1.8.29",
+    "version": "1.8.31",
     "description": "A sleek, highly customizable timer for speedrunners",
     "homepage": "https://livesplit.org/",
     "license": "MIT",
-    "url": "https://mirror.ghproxy.com/https://github.com/LiveSplit/LiveSplit/releases/download/1.8.29/LiveSplit_1.8.29.zip",
-    "hash": "36cceb90271638ac195a7d09b5d820fa7f5b7db6682cf7857905e393ee2bb347",
+    "url": "https://mirror.ghproxy.com/https://github.com/LiveSplit/LiveSplit/releases/download/1.8.31/LiveSplit_1.8.31.zip",
+    "hash": "2db68a67f75ba382ed9cccc2db2697749e843d3828b0f8bab1fad06e5ccaf905",
     "extract_dir": "",
     "bin": "LiveSplit.exe",
     "shortcuts": [
