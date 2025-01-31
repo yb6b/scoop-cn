@@ -8,7 +8,7 @@
     },
     "depends": "scoop-cn/7zip19.00-helper",
     "url": "https://download.microsoft.com/download/#/dl.7z_",
-    "hash": "2ae4536c732afce930859c8b5d7cc1aec4a7a6591315d71e77016de170521895",
+    "hash": "3b88ed974503b3c276de880ea3f2fbfd3c38cbffe637375d69f281df8e0a2a34",
     "pre_install": [
         "$scriptdir = \"$bucketsdir\\scoop-cn\\scripts\"",
         "if ($architecture -eq '64bit') {",

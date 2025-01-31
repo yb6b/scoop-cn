@@ -1,5 +1,5 @@
 {
-    "version": "2025.01.26.033829",
+    "version": "2025.01.30.195828",
     "description": "yt-dlp (official) master builds",
     "homepage": "https://github.com/yt-dlp/yt-dlp-master-builds",
     "license": "Freeware",
@@ -8,12 +8,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://mirror.ghproxy.com/https://github.com/yt-dlp/yt-dlp-master-builds/releases/download/2025.01.26.033829/yt-dlp.exe",
-            "hash": "sha512:e4c3f3944a80282f010fb27286a0555684e6324fffd68828277df7045eb5bbca590df0c469baf74da1baf6625ed3b4a463c72f947b67ea3eb885f482d324af96"
+            "url": "https://mirror.ghproxy.com/https://github.com/yt-dlp/yt-dlp-master-builds/releases/download/2025.01.30.195828/yt-dlp.exe",
+            "hash": "sha512:a677b2cc301b05905dc135abb8926ecae08ea24c38f76bce946525f0f5f8c2721b3578ba4c2fd3899248c2a6e05aeaf0a41062ca3314743ea1c2f0395172888c"
         },
         "32bit": {
-            "url": "https://mirror.ghproxy.com/https://github.com/yt-dlp/yt-dlp-master-builds/releases/download/2025.01.26.033829/yt-dlp_x86.exe#/yt-dlp.exe",
-            "hash": "sha512:ca65f87ebbf03d88eae2b08b3fe867890c2462294ac0056d0872d435148923518e049111524ceb7295d9236cdcdf0c1364f5574ac9b935cef0fb51f81d3137c2"
+            "url": "https://mirror.ghproxy.com/https://github.com/yt-dlp/yt-dlp-master-builds/releases/download/2025.01.30.195828/yt-dlp_x86.exe#/yt-dlp.exe",
+            "hash": "sha512:cef392e4ef4fb1fbd047afc0eacf27113bf7827a00ef2b0d380881998253bd37d32f642a873db46bb62d010c1387e5fd6fe1a6eb6d79cfae1466fcb6955a365a"
         }
     },
     "bin": "yt-dlp.exe",
