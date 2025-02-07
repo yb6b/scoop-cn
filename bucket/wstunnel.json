@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://mirror.ghproxy.com/https://github.com/erebe/wstunnel/releases/download/v10.1.9/wstunnel_10.1.9_windows_amd64.tar.gz",
-            "hash": "a4557e69ab4871a7e0928f29b73c494bf206876d6e704fa8a7a57eb779321aa1"
+            "hash": "dfdb69eb93ebefbcaa16f0b8d7b026edfd6913575f9ab4fabd968c1d564d66b8"
         }
     },
     "bin": "wstunnel.exe",

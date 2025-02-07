@@ -64,6 +64,33 @@
         "python -E -s -m ensurepip -U --default-pip | Out-Null",
         "Write-Output \"$([char]0x1b)[0m\" # Reset ansi to prevent color leak from installer"
     ],
+    "env_add_path": [
+        "Scripts",
+        "."
+    ],
+    "bin": [
+        [
+            "python.exe",
+            "python3"
+        ],
+        [
+            "python.exe",
+            "python313"
+        ],
+        "Lib\\idlelib\\idle.bat",
+        [
+            "Lib\\idlelib\\idle.bat",
+            "idle3"
+        ],
+        [
+            "Lib\\idlelib\\idle.bat",
+            "idle313"
+        ]
+    ],
+    "persist": [
+        "Scripts",
+        "Lib\\site-packages"
+    ],
     "uninstaller": {
         "script": [
             "if ($global) {",
@@ -72,28 +99,9 @@
             "}"
         ]
     },
-    "bin": [
-        [
-            "python.exe",
-            "python3"
-        ],
-        "Lib\\idlelib\\idle.bat",
-        [
-            "Lib\\idlelib\\idle.bat",
-            "idle3"
-        ]
-    ],
-    "env_add_path": [
-        "Scripts",
-        "."
-    ],
-    "persist": [
-        "Scripts",
-        "Lib\\site-packages"
-    ],
     "checkver": {
         "url": "https://www.python.org/downloads/windows/",
-        "regex": "Latest Python 3 Release - Python ([\\d.]+)"
+        "regex": "python-(3\\.13\\.[\\d.]+)-"
     },
     "autoupdate": {
         "architecture": {
