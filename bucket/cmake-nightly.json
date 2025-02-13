@@ -1,18 +1,18 @@
 {
-    "version": "4.0.20250209",
+    "version": "4.0.20250212",
     "description": "Family of tools designed to build, test and package software",
     "homepage": "https://cmake.org",
     "license": "BSD-3-Clause",
     "architecture": {
         "64bit": {
-            "url": "https://cmake.org/files/dev/cmake-4.0.20250209-gc2adc7c-windows-x86_64.zip",
-            "hash": "b7b23537dde4853a6df426ac74d4d42ae6c64907733545fa62c51a589c07856f",
-            "extract_dir": "cmake-4.0.20250209-gc2adc7c-windows-x86_64"
+            "url": "https://cmake.org/files/dev/cmake-4.0.20250212-gca6c847-windows-x86_64.zip",
+            "hash": "8dcef5ddf303c7e0950e681ce1a518d6438e288595a3aca548f516119c270421",
+            "extract_dir": "cmake-4.0.20250212-gca6c847-windows-x86_64"
         },
         "32bit": {
-            "url": "https://cmake.org/files/dev/cmake-4.0.20250209-gc2adc7c-windows-i386.zip",
-            "hash": "4cfe1d01188f8bf355314a6a2ed9a443745fd761c47b32dd1a3965e9ef97eca2",
-            "extract_dir": "cmake-4.0.20250209-gc2adc7c-windows-i386"
+            "url": "https://cmake.org/files/dev/cmake-4.0.20250212-gca6c847-windows-i386.zip",
+            "hash": "a04e335488f2523e4f169cb07b14f50ce40d24add615f46fa92e1433faf75283",
+            "extract_dir": "cmake-4.0.20250212-gca6c847-windows-i386"
         }
     },
     "bin": [

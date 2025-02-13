@@ -1,16 +1,16 @@
 {
-    "version": "0.25.2",
+    "version": "0.25.4",
     "description": "Open Source realtime backend in 1 file",
     "homepage": "https://pocketbase.io",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://mirror.ghproxy.com/https://github.com/pocketbase/pocketbase/releases/download/v0.25.2/pocketbase_0.25.2_windows_amd64.zip",
-            "hash": "437ae1f72b0b9feff95aba24a392e900d07620d76f39c95ea5de4a1e4f405507"
+            "url": "https://mirror.ghproxy.com/https://github.com/pocketbase/pocketbase/releases/download/v0.25.4/pocketbase_0.25.4_windows_amd64.zip",
+            "hash": "02d6869a927a8192b27a5c93f1b9693c8b533bc9795ddae9b345223cc039158d"
         },
         "arm64": {
-            "url": "https://mirror.ghproxy.com/https://github.com/pocketbase/pocketbase/releases/download/v0.25.2/pocketbase_0.25.2_windows_arm64.zip",
-            "hash": "904c76d94dc4d81e1744032b64f044e591c971dda005165ed0b143d1fa49f252"
+            "url": "https://mirror.ghproxy.com/https://github.com/pocketbase/pocketbase/releases/download/v0.25.4/pocketbase_0.25.4_windows_arm64.zip",
+            "hash": "b123f6a6ac0e9f4f5265ad023d0111e949915fbba6b57accc0db098f7e02f2ae"
         }
     },
     "bin": "pocketbase.exe",
